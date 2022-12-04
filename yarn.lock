@@ -208,10 +208,10 @@
   dependencies:
     "@iconify/types" "*"
 
-"@iconify-json/fluent@^1.1.16":
-  version "1.1.16"
-  resolved "https://registry.npmmirror.com/@iconify-json/fluent/-/fluent-1.1.16.tgz"
-  integrity sha512-8pc7JBRh4nvtnx9IxNnW7IrkgVkFilShaspYs+iQekbRUMB/qsB9tcmKEHUnNiWgyoNSXRnKyQezdDfqn7jY4g==
+"@iconify-json/fluent@^1.1.17":
+  version "1.1.17"
+  resolved "https://registry.npmmirror.com/@iconify-json/fluent/-/fluent-1.1.17.tgz#bd875cd857162fd681c4887ea6ff88e18d85849f"
+  integrity sha512-9lVhbn05enIkLEuVRNeFRPnAYVr/6PusVFQKE+8Br6Zrhp92CpR0hSqebXAgWfk48zwEdb1ymz4N50YkrmRSFA==
   dependencies:
     "@iconify/types" "*"
 
@@ -3028,7 +3028,7 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-valaxy-addon-waline@0.0.6:
+valaxy-addon-waline@0.0.6, valaxy-addon-waline@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmmirror.com/valaxy-addon-waline/-/valaxy-addon-waline-0.0.6.tgz#036063f7d0403959f14615135a5007358f7cf37e"
   integrity sha512-EvzkAZxjsd/H8PaTK2BKuUbv1l/a5KnHyhMSNhuv1JjZxExCtH4K7O43silIuEF2HZlkVAGBFKfni/0D894vQQ==

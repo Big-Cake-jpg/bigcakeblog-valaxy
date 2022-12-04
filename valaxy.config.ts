@@ -1,5 +1,6 @@
 import { defineConfig } from 'valaxy'
 import type { ThemeConfig } from 'valaxy-theme-yun'
+import { addonWaline } from 'valaxy-addon-waline'
 
 // add icons what you will need
 const safelist = [
@@ -115,11 +116,13 @@ export default defineConfig<ThemeConfig>({
 
   comment: {
     enable: true,
-    waline: {
-      enable: true,
-      serverURL: 'https://waline.bigcake.cakemc.top',
-    },
   },
+
+  addons: [
+    addonWaline({
+      serverURL: 'https://waline.yunyoujun.cn',
+    }),
+  ],
 
   theme: 'yun',
 
