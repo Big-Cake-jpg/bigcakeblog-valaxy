@@ -120,7 +120,7 @@ export default defineConfig<ThemeConfig>({
 
   addons: [
     addonWaline({
-      serverURL: 'https://waline.yunyoujun.cn',
+      serverURL: 'https://waline.bigcake.cakemc.top',
     }),
   ],
 
