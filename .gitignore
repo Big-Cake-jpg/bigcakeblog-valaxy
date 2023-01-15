@@ -11,5 +11,6 @@ dist-ssr
 node_modules
 .idea/
 *.log
+package-lock.json
 
 components.d.ts

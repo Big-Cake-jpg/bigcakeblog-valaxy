@@ -1,6 +1,7 @@
 import { defineConfig } from 'valaxy'
 import type { ThemeConfig } from 'valaxy-theme-yun'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonAlgolia } from 'valaxy-addon-algolia'
 
 // add icons what you will need
 const safelist = [
@@ -13,12 +14,12 @@ const safelist = [
  */
 export default defineConfig<ThemeConfig>({
   url: 'https://bigcake.cakemc.top',
-  favicon: 'https://cdn.cakeskin.tk/images/avatar.jpg',
+  favicon: 'https://r2.cakeskin.tk/avatar.webp',
   lang: 'zh-CN',
   title: '大蛋糕的烘焙坊',
   author: {
     name: 'Big_Cake',
-    avatar: 'https://cdn.cakeskin.tk/images/avatar.jpg',
+    avatar: 'https://r2.cakeskin.tk/avatar.webp',
   },
   description: '一个屑初三学生的小窝',
   subtitle: '也许我们会分别，但我们将永远不会忘记彼此',
@@ -61,7 +62,7 @@ export default defineConfig<ThemeConfig>({
     },
     {
       name: 'Twitter',
-      link: 'https://twitter.com/BigCake080105',
+      link: 'https://twitter.com/Big_Cake080105',
       icon: 'i-ri-twitter-line',
       color: '#1da1f2',
     },
@@ -87,12 +88,7 @@ export default defineConfig<ThemeConfig>({
 
   search: {
     enable: true,
-    algolia: {
-      enable: true,
-      appId: '8WHCI2MGOD',
-      apiKey: '1c51edcec3f0f6e9b2c0e1d3d7d76502',
-      indexName: 'BigCake Blog',
-    },
+    type: 'algolia',
   },
 
   sponsor: {
@@ -101,13 +97,13 @@ export default defineConfig<ThemeConfig>({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.cakeskin.tk/images/alipay-qrcode.png',
+        url: 'https://r2.cakeskin.tk/alipay-qrcode.webp',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'https://cdn.cakeskin.tk/images/qq-qrcode.png',
+        url: 'https://r2.cakeskin.tk/qq-qrcode.webp',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },
@@ -119,6 +115,11 @@ export default defineConfig<ThemeConfig>({
   },
 
   addons: [
+    addonAlgolia({
+      appId: '8WHCI2MGOD',
+      apiKey: '1c51edcec3f0f6e9b2c0e1d3d7d76502',
+      indexName: 'BigCake Blog',
+    }),
     addonWaline({
       serverURL: 'https://waline.bigcake.cakemc.top',
     }),
@@ -145,17 +146,22 @@ export default defineConfig<ThemeConfig>({
         icon: 'i-ri-checkbox-blank-circle-fill',
         color: 'gray',
       },
+      {
+        name: '开往',
+        icon: 'i-fluent-vehicle-subway-24-regular',
+        url: 'https://www.travellings.cn/go.html',
+        color: 'black',
+      }
     ],
 
     footer: {
       since: 2021,
-      
     },
 
     bg_image: {
       enable: true,
-      url: 'https://cdn.cakeskin.tk/images/bg-bright.png',
-      dark: 'https://cdn.cakeskin.tk/images/bg-dark-blur-30px.png',
+      url: 'https://r2.cakeskin.tk/bg-bright-blur-10px.webp',
+      dark: 'https://r2.cakeskin.tk/bg-dark.webp',
     },
 
     say: {
@@ -169,14 +175,6 @@ export default defineConfig<ThemeConfig>({
 
     colors: {
       primary: '#F2BC57',
-    },
-
-    menu: {
-      custom: {
-        title: '开往',
-        icon: 'i-fluent-vehicle-subway-24-regular',
-        url: '//travellings.cn',
-      },
     },
   },
 

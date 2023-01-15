@@ -29,7 +29,7 @@
         "name": "shwx52",
         "color": "#568be7",
         "blog": "shwx52的小窝",
-        "desc": "一位初三服主的技术小窝"
+        "desc": "奇迹？缘分！"
     },
     {
         "url": "https://iftft.com",
@@ -54,14 +54,6 @@
         "blog": "Ykueeの窝"
     },
     {
-        "url": "https://seayj.cn",
-        "avatar": "https://seayj.cn/medias/logo.png",
-        "name": "SeaYJ",
-        "color": "#3790b5",
-        "blog": "SeaYJ",
-        "desc": "追随大佬的脚步越走越远"
-    },
-    {
         "url": "https://www.yunfeng.ink",
         "avatar": "https://www.yunfeng.ink/wp-content/uploads/2022/05/cropped-huygvfc-32x32.png",
         "name": "Hacker_Yunfeng",
@@ -70,8 +62,8 @@
         "desc": "活出自我"
     },
     {
-        "url": "https://blog.xsnetw.cf/",
-        "avatar": "https://blog.xsnetw.cf/images/avatar.jpg",
+        "url": "https://blog.xsnet.eu.org",
+        "avatar": "https://blog.xsnet.eu.org/images/avatar.jpg",
         "name": "小星鑫233",
         "color": "#008B8B",
         "blog": "SinGO博客",
@@ -132,5 +124,60 @@
         "color": "#688DA0",
         "blog": "思遥方的小家",
         "desc": "我永远喜欢温迪"
+    },
+    {
+        "url": "https://eternal9.net",
+        "avatar": "https://i.imgtg.com/2022/11/24/4rBJL.jpg",
+        "name": "Eternal9",
+        "color": "#DC4437",
+        "blog": "Eternal9's Blog"
+    },
+    {
+        "url": "https://liusui.tk/",
+        "avatar": "https://liusui.cf/2022/12/03/69d56584b92ec.jpg",
+        "name": "liusui",
+        "color": "#568be7",
+        "blog": "六岁の博客",
+        "desc": "一只摆烂的咸鱼罢了"
+    },
+    {
+        "url": "https://ztsin.cn",
+        "avatar": "https://s1.ax1x.com/2022/10/22/xc03ee.jpg",
+        "name": "Z_Tsin",
+        "color": "#43bec5",
+        "blog": "Z_Tsin's Home",
+        "desc": "蘑菇森林的尽头，新世界的起点"
+    },
+    {
+        "url": "https://blog.soda.net.cn/",
+        "avatar": "https://blog.soda.net.cn/images/souiken.jpg",
+        "name": "Souiken",
+        "color": "#d2f043",
+        "blog": "Souiken's Blog",
+        "desc": "The website only is a blog."
+    },
+    {
+        "url": "https://blog.lvbyte.tk/",
+        "avatar": "https://i.im5i.com/2021/06/05/CpGnd.png",
+        "name": "Lvbyte",
+        "color": "#f5c979",
+        "blog": "字节君的思想宇宙",
+        "desc": "一个卑微的初三学生"
+    },
+    {
+        "url": "https://lowion.cn",
+        "avatar": "https://lowion.cn/hade.jpg",
+        "name": "WilliamSun",
+        "color": "#3f51b5",
+        "blog": "Williamsun 的博客",
+        "desc": "练习 Python 两年半的个人练习生"
+    },
+    {
+        "url": "https://cubik65536.top",
+        "avatar": "https://img.cubik65536.top/CubikLogo.png",
+        "name": "Cubik65536",
+        "color": "#57728B",
+        "blog": "Cubik 的小站",
+        "desc": "RECOMMENDED BY DR.CREATIVE"
     }
 ]
