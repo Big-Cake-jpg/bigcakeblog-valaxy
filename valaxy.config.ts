@@ -146,12 +146,6 @@ export default defineConfig<ThemeConfig>({
         icon: 'i-ri-checkbox-blank-circle-fill',
         color: 'gray',
       },
-      {
-        name: '开往',
-        icon: 'i-fluent-vehicle-subway-24-regular',
-        url: 'https://www.travellings.cn/go.html',
-        color: 'black',
-      }
     ],
 
     footer: {
@@ -175,6 +169,14 @@ export default defineConfig<ThemeConfig>({
 
     colors: {
       primary: '#F2BC57',
+    },
+    
+    menu: {
+      custom: {
+        title: '开往',
+        url: 'https://www.travellings.cn/go.html',
+        icon: 'i-fluent-vehicle-subway-24-regular'
+      }
     },
   },
 

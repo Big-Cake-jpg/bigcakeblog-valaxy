@@ -2899,10 +2899,10 @@ url-parse@^1.5.3:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-valaxy-addon-algolia@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmmirror.com/valaxy-addon-algolia/-/valaxy-addon-algolia-0.0.1.tgz#335a0b65ac3b9b1a9bf2ce788fb6b3d49f7cc61a"
-  integrity sha512-az6rX+92kYOXBinUHpj6lCWhecaQF0vrCuLOathe6JnHSTp2ftv6X/0p28qT/KrxdYibGmZMfr6T0xmSZm7hRg==
+valaxy-addon-algolia@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmmirror.com/valaxy-addon-algolia/-/valaxy-addon-algolia-0.0.2.tgz#f63d6fd36cf42a31aafdcfd58ba7291e06cc9489"
+  integrity sha512-eGWtslMcEI9HavZ7big6mG59ei8SxVIMMuajT4M4sEV1L3t4Q4gsbMkiQUzylU/r9zL97lnrav+3HnkPsoYRog==
   dependencies:
     "@docsearch/css" "^3.3.0"
     "@docsearch/js" "^3.3.0"
@@ -2914,19 +2914,19 @@ valaxy-addon-waline@0.0.7, valaxy-addon-waline@^0.0.7:
   dependencies:
     "@waline/client" "^2.14.1"
 
-valaxy-theme-yun@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.npmmirror.com/valaxy-theme-yun/-/valaxy-theme-yun-0.12.2.tgz#3305d2cd006db32e0771f07a8b3f90e814cd1235"
-  integrity sha512-UVs9iw0kUfy0lZ0WD6tGc1u0EphMju3klnwf5SzS1kLLiZgGe4MjcM2Ylge1b4vIZGTwFE6vBRL8yLSFiOktqA==
+valaxy-theme-yun@^0.12.3:
+  version "0.12.3"
+  resolved "https://registry.npmmirror.com/valaxy-theme-yun/-/valaxy-theme-yun-0.12.3.tgz#d6fa3689cfff18d9c1b809aa497eabdc35b501c3"
+  integrity sha512-Lzm9+KJUdWCuSiwpqE5B+RcCW0LCrAINloCOWx7raBKmRC/7Tr1iVCVy8YFtrJp3+lkHdVcSwrAdv1oW7QHnPg==
   dependencies:
     "@iconify-json/ant-design" "^1.1.4"
     "@iconify-json/simple-icons" "^1.1.37"
     valaxy-addon-waline "0.0.7"
 
-valaxy@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.npmmirror.com/valaxy/-/valaxy-0.12.2.tgz#677fe17cfb93a9f977a970b29cc8f0678ac245d2"
-  integrity sha512-Od0yHNhe0jWg2bl05un3d51+DdbHu684Qntccg39bATQ9CZSciHPrbFZ6DS/A3FIvj/UerGLcg9dO/vQgm00ng==
+valaxy@^0.12.3:
+  version "0.12.3"
+  resolved "https://registry.npmmirror.com/valaxy/-/valaxy-0.12.3.tgz#6b5d2364023b3b972274d9d7c6708b043ecdc0dc"
+  integrity sha512-VGoUsz3X75R/NBe1blVdo5KBUEXJ4O+ETh4XcBO7RSBo1kG/4pf+KSb54Vvn7rMvjiuuEqkkKiQ5Pr35c70g8g==
   dependencies:
     "@antfu/utils" "^0.7.2"
     "@ctrl/tinycolor" "^3.5.0"
